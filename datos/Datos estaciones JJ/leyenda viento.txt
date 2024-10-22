@@ -1,0 +1,49 @@
+Campos incluidos:
+     Indicativo: Indicativo climatológico
+     NOMBRE: Nombre estación
+     ALTITUD: Altitud de la estación (metros)
+     LONGITUD: Longitud geográfica
+          (La última cifra indica la orientación: 1 para longitud E y 2 para W)
+     LATITUD: Latitud geográfica
+     R_MAX_DIR: Dirección del viento en la racha máxima
+     R_MAX_VEL: Velocidad de la racha máxima del viento
+     R_MAX_HOR: Hora de la racha máxima
+     REC24: Recorrido del viento de 00 a 24
+     FR1C: Frecuencia del viento en el primer cuadrante
+     FR2C: Frecuencia del viento en el segundo cuadrante
+     FR3C: Frecuencia del viento en el tercer cuadrante
+     FR4C: Frecuencia del viento en el cuarto cuadrante
+     FRCALMA: Frecuencia de calmas
+     FRO1: Frecuencia del viento en el primer octante
+     FRO2: Frecuencia del viento en el segundo octante
+     FRO3: Frecuencia del viento en el tercer octante
+     FRO4: Frecuencia del viento en el cuarto octante
+     FRO5: Frecuencia del viento en el quinto octante
+     FRO6: Frecuencia del viento en el sexto octante
+     FRO7: Frecuencia del viento en el séptimo octante
+     FRO8: Frecuencia del viento en el octavo octante
+     OBSERVACIONES: Observaciones
+
+Unidades y valores especiales:
+
+     Horas UTC (Tiempo Universal Coordinado)
+
+     Dirección del viento en decenas de grado
+	Valores especiales dirección del viento:
+		99: Viento variable
+		88: Sin datos
+		 0: Viento en calma
+
+    Velocidad del viento en Km/h
+
+    Recorrido del viento en Km
+
+    Frecuencia del viento por cuadrantes/octantes y calmas en décimas de hora
+
+    Hora de la racha máxima/velocidad máxima media en 10' en horas y minutos    
+	Valores especiales de hora de la racha máxima/velocidad máxima media en 10':
+		9999: La racha máxima/velocidad máxima media en 10' se repite varias veces en el día
+		Si a lo largo del día faltan valores puntuales, pero se incluye la racha maxima, el grupo horario se cifrará:
+			8888: La racha máxima/velocidad máxima media en 10' se repite varias veces en el día.
+			Se sumará 6000 al grupo horario habitual (Ej: 7215 equivaldría a  7215-6000: 1215=12h 15m)
+

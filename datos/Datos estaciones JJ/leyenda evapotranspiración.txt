@@ -1,0 +1,20 @@
+Campos incluidos:
+     Indicativo: Indicativo climatológico
+     NOMBRE: Nombre estación
+     ALTITUD: Altitud de la estación (metros)
+     LONGITUD: Longitud geográfica
+          (La última cifra indica la orientación: 1 para longitud E y 2 para W)
+     LATITUD: Latitud geográfica
+     ETO: Evapotranspiración estimada
+
+Unidades y valores especiales:
+
+     Horas UTC (Tiempo Universal Coordinado)
+
+     Evapotranspiración de Referencia de Penman-Monteith FAO 56 (ETo), en décimas de mm, obtenida para las coordenadas de cada estación
+     a partir de las rejillas de ETO de la Aplicación del Balance Hídrico v2 - ACAO
+     Humedad relativa en %
+     Precipitación en décimas de mm.
+     Temperatura máxima en décimas de grados
+     Temperatura mínima en décimas de grados
+     Número de rayos en un radio de 10Km
